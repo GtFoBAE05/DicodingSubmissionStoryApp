@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="user_id">User Id</string>
+    <string name="logout">logout</string>
+    <string name="story_image">Story Image</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="dicoding_logo">Dicoding Logo</string>
+    <string name="register">REGISTER</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="have_account_login_now">HAVE ACCOUNT? LOGIN NOW</string>
+    <string name="login">LOGIN</string>
+    <string name="register_here">REGISTER HERE</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="story">Story</string>
+    <string name="add">Add</string>
+    <string name="profile">Profile</string>
+    <string name="detail_story">Detail story</string>
+    <string name="success_upload_image">Success upload image</string>
+    <string name="enter_image_or_description_first">Please enter an image file or description first.</string>
+    <string name="select_image">Select image</string>
+    <string name="need_camera_access">Need camera access</string>
+    <string name="need_gallery_access">Need gallery access</string>
+    <string name="invalid_email_format">Invalid e-mail format</string>
+    <string name="name_less_than_one_character">Name cannot be less than 1 character</string>
+    <string name="password_less_than_eight_char">Password cannot be less than 8 characters</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">App widget for story app</string>
+    <string name="need_camera_gallery_access">Need Camera Or Gallery or Maps Access</string>
+    <string name="location">Location</string>
+    <string name="location_access_off">Location access off</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story_navigation"
+    app:startDestination="@id/StoryMenu">
+
+    <fragment
+        android:id="@+id/ProfileMenu"
+        android:name="com.example.storyapp.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/AddStoryMenu"
+        android:name="com.example.storyapp.ui.story.add.AddStoryFragment"
+        android:label="fragment_add_story"
+        tools:layout="@layout/fragment_add_story" >
+        <action
+            android:id="@+id/action_AddStoryMenu_to_StoryMenu"
+            app:destination="@id/StoryMenu"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/AddStoryMenu"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/DetailStoryMenu"
+        android:name="com.example.storyapp.ui.story.detail.DetailStoryFragment"
+        android:label="fragment_detail_story"
+        tools:layout="@layout/fragment_detail_story" />
+    <fragment
+        android:id="@+id/StoryMenu"
+        android:name="com.example.storyapp.ui.story.list.ListStoryFragment"
+        android:label="fragment_list_story"
+        tools:layout="@layout/fragment_list_story" >
+        <action
+            android:id="@+id/action_listStoryFragment_to_detailStoryFragment"
+            app:destination="@id/DetailStoryMenu"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/DetailStoryMenu"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/MapsMenu"
+        android:name="com.example.storyapp.ui.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>
